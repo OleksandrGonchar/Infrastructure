@@ -5,7 +5,13 @@
         .module("app")
         .controller("Default", Default);
     function Default() {
-        alert("WORK");
+        return {
+            restrict: "A",
+            link : function (){
+                alert("WORK");
+            },
+            scope: {}
+        }
     }
 
 })();
