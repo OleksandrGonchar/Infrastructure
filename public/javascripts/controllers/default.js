@@ -5,16 +5,10 @@
         .module("app")
         .controller("Default", Default);
 
-    Default.$inject = ["$scope", "productsData", "userData"];
+    Default.$inject = ["$scope"];
 
     function Default($scope, productsData, userData) {
-        $scope.products = productsData.data;
-        $scope.incrementPrices = productsData.incrementPrices;
-
-        $scope.user = userData.data;
-        $scope.getCity = userData.getCity;
-
-        $scope.dataSource = "controller";
+        alert("WORK");
     }
 
 })();
