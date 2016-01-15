@@ -7,10 +7,7 @@
     function Default() {
         return {
             restrict: "A",
-            scope: {},
-            controller : function (){
-                alert("WORK");
-            }
+            scope: {}
         }
     }
 
