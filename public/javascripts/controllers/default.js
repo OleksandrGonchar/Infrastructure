@@ -3,14 +3,14 @@
 
     angular
         .module("app")
-        .controller("Default", Default);
+        .directive("Default", Default);
     function Default() {
         return {
             restrict: "A",
-            link : function (){
+            scope: {},
+            controller : function (){
                 alert("WORK");
-            },
-            scope: {}
+            }
         }
     }
 
