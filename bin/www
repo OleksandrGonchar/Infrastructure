@@ -5,7 +5,6 @@
  */
 
 var app = require('../app');
-var vendor = require('../node_modules');
 var debug = require('debug')('integration:server');
 var http = require('http');
 
