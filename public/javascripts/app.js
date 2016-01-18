@@ -5,7 +5,7 @@
         .directive("Default", Default);
     function Default() {
         return {
-            restrict: "A",
+            restrict: "L",
             scope: {}
         }
     }
