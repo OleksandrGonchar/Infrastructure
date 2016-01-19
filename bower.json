@@ -1,6 +1,7 @@
 {
   "name": "angular",
   "description": "",
+  "directory" : "public/",
   "main": "",
   "authors": [
     "Oleksandr Gonchar <oleksandr_gonchar@epam.com>"
